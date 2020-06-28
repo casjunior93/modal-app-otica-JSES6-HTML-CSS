@@ -31,6 +31,7 @@ xmlhttp.onreadystatechange = function() {
         var produtoId = document.querySelector('#id');
         var precoTotal = document.querySelector('#valor');
         var botaoComprarAutorizado = document.querySelector(".adicionarCarrinho");
+        botaoComprarAutorizado.style.visibility = 'hidden';
         var respostaSemCombinacao = document.querySelector("#respostaSemCombinacaoCaixaTexto");
         var grupoEspessura = document.querySelector("#espessura");
         grupoEspessura.style.display = "none";
